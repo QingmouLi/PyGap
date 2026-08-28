@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyGap"                 # Change this to your preferred package name
+version = "1.0.0"
+description = "Fill data gaps, data quality control, anomaly detection and separation"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.26.4",
+    "matplotlib>=3.6.3",
+    "pandas>=2.0.2",
+    "scipy>=1.8.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6"
+]
+
+[tool.setuptools.packages.find]
+include = ["PyGap*"]           # 
+
+[tool.setuptools.package-data]
+my_package = ["data/*", "data/**/*"] # Bundles data files inside pygape

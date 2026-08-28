@@ -1,0 +1,23 @@
+site_name: PyGap
+
+theme: 
+  name: material
+
+use_directory_urls: false
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [.]
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Examples: examples.md
+  - API Reference: api.md
+  - Paper: paper.md 
+
+markdown_extensions:
+  - footnotes
