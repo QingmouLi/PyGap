@@ -2,7 +2,7 @@
 
 
 ## 1. Purpose of PyGap
-PyGap implements EigenSig and LSHE for data gap filling or further been adapted for data quality control, anomaly detection and separation. For example.
+PyGap implements EigenSig and LSHE for data gap filling or further been adapted for data quality control, anomaly detection and separation. For example, Figure_PyGap.py created following figure.
 ![Screentshot](img/Figure_PyGap.png)
 In the Figure, 
 - (1) the Y is observed geomagnetic records, strip domains are removed to create synthetic gaps, filled data gaps using PyGap are labeled as EigenSig and LSHE; 
@@ -111,11 +111,7 @@ see
 [Open notebook](demoEigenSig.ipynb) 
 which demonstrate DataFrame version showing how to use LSHE
 
-### 3.4 integrated modeling and results statistics
-Figure_PyGap.py shows an unified example to demonstrate PyGap.
-![Screentshot](img/Figure_PyGap.png)
-
-### 3.5 msc  
+### 3.4 msc  
 
 See 
 - [Open notebook](data_prepare.ipynb) 
