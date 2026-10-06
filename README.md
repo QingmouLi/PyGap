@@ -2,7 +2,7 @@
 
 
 ## 1. Purpose of PyGap
-PyGap implements EigenSig and LSHE for data gap filling or further been adapted for data quality control, anomaly detection and separation. For example, Figure_PyGap.py created following figure.
+PyGap implements EigenSig and LSHE for data gap filling or further been adapted for data quality control, anomaly detection and separation. For example, by calling PyGap, Figure_PyGap.py created following figure.
 ![Screentshot](img/Figure_PyGap.png)
 In the Figure, 
 - (1) the Y is observed geomagnetic records, strip domains are removed to create synthetic gaps, filled data gaps using PyGap are labeled as EigenSig and LSHE; 
@@ -16,7 +16,7 @@ In the Figure,
 
 ### 1.1 *EigenSig* 
 
-The **EigenSig** methodology [^2], an eigenspace-based approach for filling data gaps, separating signals, and analyzing structural patterns in spatio-temporal datasets. Unlike harmonic approaches that rely on predefined Fourier components, EigenSig is entirely **data-driven**, extracting dominant structures directly from the observations. This makes it particularly suitable for geophysical, environmental, and climate datasets that contain irregular sampling, long data gaps, transient events, and non-stationary behavior.
+The **EigenSig** methodology [^2], an eigenspace-based approach for filling data gaps, separating signals, and analyzing structural patterns in spatio-temporal (ST) datasets. Unlike harmonic approaches that rely on predefined Fourier components, EigenSig is entirely **data-driven**, extracting dominant structures directly from the observations. This makes it particularly suitable for geophysical, environmental, and climate datasets that contain irregular sampling, long data gaps, transient events, and non-stationary behavior.
 
 Methods can be find in DemoEigenSig.ipynb or paper [^2] for details.
  

@@ -10,6 +10,7 @@ dist/
 # MkDocs generated site
 HTML/
 site/
+paper_JOSS/
 
 # Testing
 .pytest_cache/
